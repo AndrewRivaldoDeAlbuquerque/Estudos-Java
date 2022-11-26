@@ -10,7 +10,7 @@ public class Farhrenheit {
     double celsius = (fahrenheit - AJUSTE) * FATOR;
     
     System.out.println("O resultado é : " + celsius + "ºC." );
-    
+
     }
     
 

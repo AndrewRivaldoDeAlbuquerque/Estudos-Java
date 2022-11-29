@@ -1,5 +1,8 @@
 package EstudosJava;
 
+import javax.sql.rowset.spi.SyncResolver;
+import javax.swing.JOptionPane;
+
 public class ConversaoTiposPrimitivosNumericos {
     public static void main(String[] args) {
        // Conversao dos Tipos Primitivos Numericos
@@ -25,5 +28,17 @@ public class ConversaoTiposPrimitivosNumericos {
         System.out.println(Integer.toString(num2));
 
         System.out.println(("" + num2).length()); //  o length fala o tamanho da string
-    }
+
+    // Conversao de String para Numero 
+    String valor1 = JOptionPane.showInputDialog("Digite o primeiro numero: "); // showInputDialog abre uma janela do java para inserir algum valor
+    String valor2 = JOptionPane.showInputDialog("Digite o segundo numero: "); // JOptionPane ele va fazer aparecer uma janela virtual 
+    
+    System.out.println(valor1 + valor2);
+
+    double v1 = Double.parseDouble(valor1); // Transforma o a string no tipo double 
+    double v2 = Double.parseDouble(valor2);
+
+    System.out.println(v1 + v2);
+
+}
 }

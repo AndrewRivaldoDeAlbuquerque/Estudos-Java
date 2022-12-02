@@ -1,4 +1,6 @@
-public class DesafioAritmeticos {
+package Fundamentos.FundamentosLogicos;
+
+    public class DesafioAritmeticos {
     public static void main(String[] args) {
         double v1 = (6 * (3 + 2));
         double r1 = Math.pow(v1, 2); // Pode fazer assim: double r1 = Math.pow(6 * ( 3 + 2), 2);

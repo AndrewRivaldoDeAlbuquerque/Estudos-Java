@@ -1,4 +1,4 @@
-package EstudosJava;
+package Fundamentos;
 
 import java.util.Scanner;
 
@@ -22,6 +22,7 @@ public class NotacaoPonto {
             String nome = entrada.nextLine();
 
             System.out.println("Ola " + nome);
+            System.out.println(a);
 
             
             System.out.print("Digite sua idade: ");

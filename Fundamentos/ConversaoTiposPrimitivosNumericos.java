@@ -1,6 +1,5 @@
-package EstudosJava;
+package Fundamentos;
 
-import javax.sql.rowset.spi.SyncResolver;
 import javax.swing.JOptionPane;
 
 public class ConversaoTiposPrimitivosNumericos {

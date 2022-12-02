@@ -1,4 +1,4 @@
-package EstudosJava;
+package Fundamentos;
 
 public class Farhrenheit {
     public static void main(String [] args) {

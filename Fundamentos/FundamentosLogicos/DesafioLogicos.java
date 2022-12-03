@@ -3,25 +3,20 @@ package Fundamentos.FundamentosLogicos;
 public class DesafioLogicos {
     public static void main(String[] args) {
         boolean trabalho1 = true;
-        boolean trabalho2 = true; 
+        boolean trabalho2 = false; 
 
-        System.out.println(trabalho1 && trabalho2);
-        System.out.println(trabalho1 && !trabalho2);
-        System.out.println(trabalho1 || !trabalho2);
-        System.out.println(!trabalho1 || !trabalho2);
+        boolean comprouTV50 = trabalho1 && trabalho2;
+        boolean comprouTV32 = trabalho1 ^ trabalho2;
+        boolean comprouSorvete = trabalho1 || trabalho2;
 
-        if ( trabalho1 && trabalho2 ) {
-        System.out.println("Comparemos uma tv de 50 polegadas"); }
-        if ( trabalho1 ^ !trabalho2) {
-            System.out.println("Compraremos uma tv de 32 polegadas");
-        }
-        if ( trabalho1 || trabalho2) {
-            System.out.println("Iremos tomar sorvete no shopping ");
-        }
-        if (!trabalho1 && !trabalho2 ) {
-            System.out.println("Ficaremos em casa");
-        }
+        // Operador Unário!
+        boolean maisSaudavel = !comprouSorvete;
 
+        System.out.println("Comprou TV 50\"?" + comprouTV50);
+        System.out.println("Comprou TV 32\"?" + comprouTV32);
+        System.out.println("Comprou sorvete?" + comprouSorvete);
+        System.out.println("Mais saudavel?" + maisSaudavel);
+        
     }
     }
     

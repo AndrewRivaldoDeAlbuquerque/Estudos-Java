@@ -12,12 +12,14 @@ public class OpRelacionais {
         System.out.println(9 < 10);    // menor que 
         System.out.println(10 > 9);    // maior que 
 
-        double nota = 8.5;
+        double nota = 4.5;
         boolean BomComportamento = true;
         boolean passouPorMedia = nota >= 7;
         boolean Desconto = passouPorMedia && BomComportamento;
+        String Resultado = Desconto ? "Sim" : "Nao";
+    
 
-        System.out.println("Tem desconto ? " + Desconto);
+        System.out.println("Tem desconto ? " + Resultado);
 
 
     }

@@ -1,0 +1,140 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Celsius",
+            "request": "launch",
+            "mainClass": "Fundamentos.Celsius",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConversaoTiposPrimitivosNumericos",
+            "request": "launch",
+            "mainClass": "Fundamentos.ConversaoTiposPrimitivosNumericos",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioCalculadora",
+            "request": "launch",
+            "mainClass": "Fundamentos.DesafioCalculadora",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioConversao",
+            "request": "launch",
+            "mainClass": "Fundamentos.DesafioConversao",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Farhrenheit",
+            "request": "launch",
+            "mainClass": "Fundamentos.Farhrenheit",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioAritmeticos",
+            "request": "launch",
+            "mainClass": "Fundamentos.FundamentosLogicos.DesafioAritmeticos",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioLogicos",
+            "request": "launch",
+            "mainClass": "Fundamentos.FundamentosLogicos.DesafioLogicos",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch OpAtribuicao",
+            "request": "launch",
+            "mainClass": "Fundamentos.FundamentosLogicos.OpAtribuicao",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch OpRelacionais",
+            "request": "launch",
+            "mainClass": "Fundamentos.FundamentosLogicos.OpRelacionais",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch OpTernario",
+            "request": "launch",
+            "mainClass": "Fundamentos.FundamentosLogicos.OpTernario",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch OpUnarios",
+            "request": "launch",
+            "mainClass": "Fundamentos.FundamentosLogicos.OpUnarios",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadoresLogicos",
+            "request": "launch",
+            "mainClass": "Fundamentos.FundamentosLogicos.OperadoresLogicos",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringEquals",
+            "request": "launch",
+            "mainClass": "Fundamentos.FundamentosLogicos.StringEquals",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch IMC",
+            "request": "launch",
+            "mainClass": "Fundamentos.IMC",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch NotacaoPonto",
+            "request": "launch",
+            "mainClass": "Fundamentos.NotacaoPonto",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch TipoString",
+            "request": "launch",
+            "mainClass": "Fundamentos.TipoString",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch TiposPrimitivos",
+            "request": "launch",
+            "mainClass": "Fundamentos.TiposPrimitivos",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Wrappers",
+            "request": "launch",
+            "mainClass": "Fundamentos.Wrappers",
+            "projectName": "Estudos-Java_c0efb26d"
+        }
+    ]
+}

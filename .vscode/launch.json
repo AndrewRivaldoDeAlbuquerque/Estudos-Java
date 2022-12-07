@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BaseTriangulo",
+            "request": "launch",
+            "mainClass": "Fundamentos.BaseTriangulo",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuadradoeCubo",
+            "request": "launch",
+            "mainClass": "Fundamentos.QuadradoeCubo",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

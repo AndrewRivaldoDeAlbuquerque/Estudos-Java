@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch If",
+            "request": "launch",
+            "mainClass": "Controle.If",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
             "name": "Launch Bhaskara",
             "request": "launch",
             "mainClass": "Fundamentos.Bhaskara",

@@ -17,6 +17,6 @@ public class If {
         {
             System.out.print("Aluno Reprovado");
         }
-    
+     leia.close();
     }
 }

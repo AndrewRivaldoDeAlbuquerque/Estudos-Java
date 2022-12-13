@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WhileDeterminado",
+            "request": "launch",
+            "mainClass": "Controle.WhileDeterminado",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioDiaSemana",
+            "request": "launch",
+            "mainClass": "Controle.DesafioDiaSemana",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
             "name": "Launch IfElse",
             "request": "launch",
             "mainClass": "Controle.IfElse",

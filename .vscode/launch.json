@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch For",
+            "request": "launch",
+            "mainClass": "Controle.For",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioSensores",
+            "request": "launch",
+            "mainClass": "Fundamentos.DesafioSensores",
+            "projectName": "Estudos-Java_c0efb26d"
+        },
+        {
+            "type": "java",
             "name": "Launch WhileDeterminado",
             "request": "launch",
             "mainClass": "Controle.WhileDeterminado",

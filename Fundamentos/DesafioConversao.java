@@ -6,7 +6,7 @@ public class DesafioConversao {
    
     Scanner leia = new Scanner(System.in);
     System.out.println("Digite o primeiro salario: ");
-    String salario1 = leia.nextLine().replace(",", "."); // replace subititui uma string/char por outra que escolhemos
+    String salario1 = leia.nextLine().(",", "."); // replace subititui uma string/char por outra que escolhemos
     System.out.println("Digite o segundo salario: ");
     String salario2 = leia.nextLine().replace(",", ".");
     System.out.println("Digite o terceiro salario: ");
